@@ -21,7 +21,6 @@ Last edited 15-March-2021
 ## Instructions
 
 * Check out the Wiki page tabs if you are unfamiliar with installing R packages
-* Sample scripts to get started are provided here (TBD)
 
 Display general documentation:  
 * ``help(package = "batl") # Opens help panel in RStudio``
