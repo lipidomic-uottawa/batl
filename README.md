@@ -16,7 +16,7 @@ Last edited 15-March-2021
 * (Optional:) Install [RStudio](https://rstudio.com/)
 * In the R/RStudio console:
   * ``install.packages("/path_to_file/batl_X.XX.X.tar.gz", repos = NULL, type="source", dependencies = TRUE)``
-  * If installation fails, install the package dependencies manually
+  * If installation fails, install the package dependencies manually according to the error message
   
 ## Instructions
 
