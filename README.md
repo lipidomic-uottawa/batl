@@ -22,19 +22,17 @@ Last edited 31-May-2021
     
 ## Instructions
 
-Check out the Wiki page tabs for an overview of R/RStudio and detailed vignettes on how to use BATL. Documentation can also be accessed within R using the following commands:
+Check out the Wiki page tabs for an overview of R/RStudio and detailed vignettes on how to use BATL. Once BATL has been installed, documentation can also be accessed within R using the following commands:
 
 Display general documentation:
-* ``library("batl")        # load the BATL package``
 * ``help(package = "batl") # opens BATL help panel in RStudio``
 
 Open BATL vignette/tutorial:
-* ``library("batl")        # load the BATL package``
 * ``vignette(package = "batl", topic = "batl-Introduction")``
 
 ## Quickstart scripts
 
-1. ``batl_installer.R``: automatic script to install BATL on any device.
+1. ``batl_installer.R``: automatically installs BATL and package dependencies.
 2. ``batl_train_model.R``: trains the BATL model on some toy data.
 3. ``batl_annotate_peaks.R``: applies the BATL model to a toy dataset, assigning lipid barcodes and artifacts/isotopes.
 
