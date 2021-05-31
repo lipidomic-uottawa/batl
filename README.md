@@ -14,32 +14,33 @@ Last edited 15-March-2021
 * Install [R](https://www.r-project.org/) version 3.6.0 or greater
 * (Optional but recommended:) Install [RStudio](https://rstudio.com/)
 
-## Installation (several ways)
+## Installation (two ways)
 
-* R novices can download the ``batl_installer.R`` script and run it in R to automatically download the batl_X.XX.X.tar.gz package in this repository and install it on their machine with package dependencies
-* R users will be familiar downloading the file and installing it with ``install.packages("/path_to_file/batl_X.XX.X.tar.gz", repos = NULL, type = "source", dependencies = TRUE)``
+* R novices can download the ``batl_installer.R`` script and run it in R to automatically download the batl_X.XX.X.tar.gz package in this repository and install it on their machine with any package dependencies
+* Users familiar with R can download the batl_X.XX.X.tar.gz file and install it via ``install.packages("/path_to_file/batl_X.XX.X.tar.gz", repos = NULL, type = "source", dependencies = TRUE)``
   * If installation fails, install the package dependencies manually according to the error message
     
 ## Instructions
 
-* Check out the Wiki page tabs if you are unfamiliar with using RStudio and installing R packages
+Check out the Wiki page tabs for an overview of R/RStudio and detailed vignettes on how to use BATL. Documentation can also be accessed within R using the following commands:
 
-Display general documentation:  
-* ``help(package = "batl") # Opens help panel in RStudio``
+Display general documentation:
+* ``library("batl")        # load the BATL package``
+* ``help(package = "batl") # opens BATL help panel in RStudio``
 
 Open BATL vignette/tutorial:
+* ``library("batl")        # load the BATL package``
 * ``vignette(package = "batl", topic = "batl-Introduction")``
-* The vignettes/documentation are also available on the Wiki page tabs.
 
-## Example scripts
+## Quickstart scripts
 
-1. 
-2.
-3.
+1. ``batl_installer.R``: automatic script to install BATL on any device.
+2. ``batl_train_model.R``: trains the BATL model on some toy data.
+3. ``batl_annotate_peaks.R``: applies the BATL model to a toy dataset, assigning lipid barcodes and artifacts/isotopes.
 
 ## Citation
 
-The pre-print is available at (TBD)
+The pre-print is available at [https://www.biorxiv.org/content/10.1101/2021.03.18.435788v1](https://www.biorxiv.org/content/10.1101/2021.03.18.435788v1)
 
 ## Contact
 
