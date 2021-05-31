@@ -34,7 +34,7 @@ Open BATL vignette/tutorial:
 
 1. ``batl_installer.R``: automatically installs BATL and package dependencies.
 2. ``batl_train_model.R``: trains the BATL model on some toy data.
-3. ``batl_annotate_peaks.R``: applies the BATL model to a toy dataset, assigning lipid barcodes and artifacts/isotopes.
+3. ``batl_annotate_peaks.R``: applies the trained BATL model from ``batl_train_model.R`` to a toy dataset, assigning lipid barcodes and artifacts/isotopes.
 
 ## Citation
 
