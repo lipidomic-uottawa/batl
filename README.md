@@ -9,18 +9,20 @@ Last edited 15-March-2021
 - Check out the Wiki pages for extended documentation
 - Check the R package NEWS section for changes.
 
-## Installation
+## Requisite software
 
-* Download the latest batl_X.XX.X.tar.gz 
 * Install [R](https://www.r-project.org/) version 3.6.0 or greater
-* (Optional:) Install [RStudio](https://rstudio.com/)
-* In the R/RStudio console:
-  * ``install.packages("/path_to_file/batl_X.XX.X.tar.gz", repos = NULL, type="source", dependencies = TRUE)``
+* (Optional but recommended:) Install [RStudio](https://rstudio.com/)
+
+## Installation (several ways)
+
+* R novices can download the ``batl_installer.R`` script and run it in R to automatically download the batl_X.XX.X.tar.gz package in this repository and install it on their machine with package dependencies
+* R users will be familiar downloading the file and installing it with ``install.packages("/path_to_file/batl_X.XX.X.tar.gz", repos = NULL, type = "source", dependencies = TRUE)``
   * If installation fails, install the package dependencies manually according to the error message
-  
+    
 ## Instructions
 
-* Check out the Wiki page tabs if you are unfamiliar with installing R packages
+* Check out the Wiki page tabs if you are unfamiliar with using RStudio and installing R packages
 
 Display general documentation:  
 * ``help(package = "batl") # Opens help panel in RStudio``
@@ -28,6 +30,12 @@ Display general documentation:
 Open BATL vignette/tutorial:
 * ``vignette(package = "batl", topic = "batl-Introduction")``
 * The vignettes/documentation are also available on the Wiki page tabs.
+
+## Example scripts
+
+1. 
+2.
+3.
 
 ## Citation
 
