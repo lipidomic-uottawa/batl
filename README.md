@@ -5,7 +5,7 @@ Bioinformatic tools capable of annotating, rapidly and reproducibly, large targe
 
 ## News
 
-Last edited 31-May-2021
+Last edited 01-June-2021
 - Check out the Wiki pages for extended documentation
 - Check the R package NEWS section for changes.
 
