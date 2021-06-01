@@ -25,10 +25,10 @@ Last edited 01-June-2021
 Check out the Wiki page tabs for an overview of R/RStudio and detailed vignettes on how to use BATL. Once BATL has been installed, documentation can also be accessed within R using the following commands:
 
 Display general documentation:
-* ``help(package = "batl") # opens BATL help panel in RStudio``
+* ``help(package = "batl") # opens BATL help panel in RStudio pane``
 
 Open BATL vignette/tutorial:
-* ``vignette(package = "batl", topic = "batl-Introduction")``
+* ``vignette(package = "batl", topic = "batl-Introduction") # opens vignette in RStudio pane``
 
 The standard R documentation can be found by downloading:
 * ``batl_2.05.6.pdf``
