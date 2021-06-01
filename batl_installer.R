@@ -1,7 +1,7 @@
 ################################################################################
 ## INSTALL BATL                                                                #
 ## Author: Justin Chitpin                                                      #
-## Date: 31 May 2021                                                           #
+## Date: 01 June 2021                                                          #
 ## Description: Install BATL and dependencies if not already installed.        #
 ################################################################################
 

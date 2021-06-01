@@ -1,11 +1,12 @@
 ################################################################################
 ## ANNOTATING LIPID IDENTITIES AND ARTIFACTS/ISOTOPES - EXAMPLE                #
 ## Author: Justin Chitpin                                                      #
-## Date: 31 May 2021                                                           #
+## Date: 01 June 2021                                                          #
 ## Description: Assign lipid identities to targeted lipidomics peak file base  #
 ## on the training set from batl_train_model.R                                 #
-## Modify the USER PARAMETERS section starting on line 14 to substitute your   #
-## own data.                                                                   #
+## Input: Modify the USER PARAMETERS section starting on line 15 to substitute #
+## your own data (BATL model file and peak file(s) to assign labels to)        #
+## Output: Labelled peak file(s)                                               #
 ################################################################################
 
 ## Clear environment

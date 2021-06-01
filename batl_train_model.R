@@ -1,20 +1,21 @@
 ################################################################################
 ## TRAINING BATL - EXAMPLE                                                     #
 ## Author: Justin Chitpin                                                      #
-## Date: 31 May 2021                                                           #
+## Date: 01 June 2021                                                          #
 ## Description: Example script to train the BATL model on some toy data using  #
 ## a single combination of features.                                           #
-## Modify the USER PARAMETERS section starting on line 14 to substitute your   #
-## own data.                                                                   #
+## Input: Modify the USER PARAMETERS section starting on line 15 to substitute #
+## your own data (training set and associated lipid features)                  #
+## Output: BATL model file                                                     #
 ################################################################################
 
 ## Clear environment
 rm(list=ls())
 
-## USER PARAMETERS TO CHANGE ###################################################
+## USER PARAMETERS #############################################################
 saved_model_name <- "Test_model.txt"
-training_set <- batl::srm_tc # use the line below to load your own training set
-#training_set <- nb_import_library("/path/to/your/training_set.txt") # load tab-delimited training set
+training_set <- batl::srm_tc
+#training_set <- "/path/to/your/training_set.txt" # load your own tab-delimited training set
 features <- c(
   "Retention Time",
   "Area",
@@ -49,6 +50,9 @@ if (length(to_install) > 0) {
 library("batl")       # targeted lipid annotation package
 library("data.table") # data table manipulation for this vignette
 library("progressr")  # extra functionality for progress bar (optional)
+if (is.character(training_set)) {
+  training_set <-  nb_import_library(training_set)
+}
 
 ## Train BATL model with the specified features
 progressr::handlers("progress")
