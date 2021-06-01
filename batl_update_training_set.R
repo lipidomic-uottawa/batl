@@ -44,7 +44,7 @@ library("batl")       # targeted lipid annotation package
 library("data.table") # data table manipulation for this vignette
 library("progressr")  # extra functionality for progress bar (optional)
 
-if (my_model == "Test_model.txt" && !file.exists("Test_model.txt")) {
+if (my_training_set == "Test_model.txt" && !file.exists("Test_model.txt")) {
   stop("Model Test_model.txt not found. Run batl_train_model.R script first.")
 }
 if (length(filenames) != length(my_labelled_files)) {
