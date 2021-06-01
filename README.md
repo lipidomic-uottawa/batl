@@ -30,7 +30,7 @@ Display general documentation:
 Open BATL vignette/tutorial:
 * ``vignette(package = "batl", topic = "batl-Introduction")``
 
-## Quickstart scripts
+## Quickstart/template scripts
 
 1. ``batl_installer.R``: automatically installs BATL and package dependencies (R must be already installed).
 2. ``batl_train_model.R``: trains the BATL model on some toy data.
