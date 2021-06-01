@@ -32,7 +32,7 @@ Open BATL vignette/tutorial:
 
 ## Quickstart scripts
 
-1. ``batl_installer.R``: automatically installs BATL and package dependencies.
+1. ``batl_installer.R``: automatically installs BATL and package dependencies (R must be already installed).
 2. ``batl_train_model.R``: trains the BATL model on some toy data.
 3. ``batl_annotate_peaks.R``: applies the trained BATL model from ``batl_train_model.R`` to a toy dataset, assigning lipid barcodes and artifacts/isotopes.
 4. ``batl_update_training_set.R``: appends BATL-labelled peak files from ``batl_annotate_peaks`` to a toy training set.
