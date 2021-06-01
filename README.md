@@ -16,8 +16,8 @@ Last edited 01-June-2021
 
 ## Installation (two ways)
 
-* R novices can download the ``batl_installer_2.05.6.R`` script and run it in R to automatically download the batl_X.XX.X.tar.gz package in this repository and install it on their machine with any package dependencies
-* Users familiar with R can download the batl_X.XX.X.tar.gz file and install it via ``install.packages("/path_to_file/batl_X.XX.X.tar.gz", repos = NULL, type = "source", dependencies = TRUE)``
+* R novices can download the ``batl_installer_2.05.6.R`` script and run it in R to automatically download the batl_X.XX.X.tar.gz package in this repository and install it on their machine with any package dependencies. It is recommended to exit RStudio and re-open it upon first installation.
+* Users familiar with R can download the batl_X.XX.X.tar.gz file and install it via ``install.packages("/path_to_file/batl_X.XX.X.tar.gz", repos = NULL, type = "source", dependencies = TRUE)``. It is recommended to exit RStudio and re-open it upon first installation.
   * If installation fails, install the package dependencies manually according to the error message
     
 ## Instructions
