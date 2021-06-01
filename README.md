@@ -30,6 +30,9 @@ Display general documentation:
 Open BATL vignette/tutorial:
 * ``vignette(package = "batl", topic = "batl-Introduction")``
 
+The standard R documentation can be found by downloading:
+* ``batl_2.05.6.pdf``
+
 ## Quickstart/template scripts
 
 1. ``batl_installer_2.05.6.R``: automatically installs BATL and package dependencies (R must be already installed).
