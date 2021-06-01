@@ -16,7 +16,7 @@ Last edited 01-June-2021
 
 ## Installation (two ways)
 
-* R novices can download the ``batl_installer.R`` script and run it in R to automatically download the batl_X.XX.X.tar.gz package in this repository and install it on their machine with any package dependencies
+* R novices can download the ``batl_installer_2.05.6.R`` script and run it in R to automatically download the batl_X.XX.X.tar.gz package in this repository and install it on their machine with any package dependencies
 * Users familiar with R can download the batl_X.XX.X.tar.gz file and install it via ``install.packages("/path_to_file/batl_X.XX.X.tar.gz", repos = NULL, type = "source", dependencies = TRUE)``
   * If installation fails, install the package dependencies manually according to the error message
     
@@ -32,7 +32,7 @@ Open BATL vignette/tutorial:
 
 ## Quickstart/template scripts
 
-1. ``batl_installer.R``: automatically installs BATL and package dependencies (R must be already installed).
+1. ``batl_installer_2.05.6.R``: automatically installs BATL and package dependencies (R must be already installed).
 2. ``batl_train_model.R``: trains the BATL model on some toy data.
 3. ``batl_annotate_peaks.R``: applies the trained BATL model from ``batl_train_model.R`` to a toy dataset, assigning lipid barcodes and artifacts/isotopes.
 4. ``batl_update_training_set.R``: appends BATL-labelled peak files from ``batl_annotate_peaks`` to a toy training set.
