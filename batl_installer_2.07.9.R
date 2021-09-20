@@ -11,7 +11,7 @@ rm(list=ls())
 ## Download the latest BATL version
 message("Downloading BATL from lipidomics-uottawa/batl")
 current_dir <- getwd()
-batl_name <- "batl_2.05.6.tar.gz"
+batl_name <- "batl_2.07.9.tar.gz"
 download.file(
   paste0("https://github.com/lipidomic-uottawa/batl/raw/main/", batl_name),
   destfile = batl_name,
